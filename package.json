@@ -1,0 +1,19 @@
+{
+  "name": "tk.dingemans.bigibas123.logoassets",
+  "displayName": "Bigibas123's Logo assets",
+  "version": "0.1.0",
+  "license": "",
+  "author": {
+    "name": "bigibas123"
+  },
+  "unity": "2022.3",
+  "description": "Collection of shaders by bigibas123",
+  "vpmDependencies": {
+    "lygia": ">=1.1.7",
+	"tk.dingemans.bigibas123.bigishader": ">=0.2.3"
+  },
+  "url": "https://github.com/bigibas123/LogoAssets.git",
+  "legacyFolders": {},
+  "legacyFiles": {},
+  "legacyPackages": []
+}
