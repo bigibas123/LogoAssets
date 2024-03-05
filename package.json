@@ -10,7 +10,8 @@
   "description": "Logo-containing assets",
   "vpmDependencies": {
     "lygia": ">=1.1.7",
-	"tk.dingemans.bigibas123.bigishader": ">=0.2.0"
+	"tk.dingemans.bigibas123.bigishader": ">=0.2.0",
+    "com.vrcfury.vrcfury": ">=1.744.0"
   },
   "url": "https://github.com/bigibas123/LogoAssets.git",
   "legacyFolders": {},
