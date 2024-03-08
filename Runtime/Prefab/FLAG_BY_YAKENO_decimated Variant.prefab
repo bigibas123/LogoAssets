@@ -200,7 +200,7 @@ MonoBehaviour:
       type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 3
-        name: Props/YakeFlag/Logo/
+        name: Props/YakeFlag/Logo
         state:
           actions:
           - rid: 2775620544861306888
