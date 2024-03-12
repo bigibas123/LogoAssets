@@ -118,7 +118,7 @@ MonoBehaviour:
   integrationType: 1
   rootTransform: {fileID: 4938989771532344254}
   ignoreTransforms: []
-  endpointPosition: {x: 0, y: 0.00247825, z: 0}
+  endpointPosition: {x: 0, y: 0.247825, z: 0}
   multiChildType: 1
   pull: 0.1
   pullCurve:
@@ -349,7 +349,7 @@ MonoBehaviour:
   rootTransform: {fileID: 1106597673890601067}
   ignoreTransforms:
   - {fileID: 4938989771532344254}
-  endpointPosition: {x: 0, y: 0.00267825, z: 0}
+  endpointPosition: {x: 0, y: 0.267825, z: 0}
   multiChildType: 0
   pull: 0.01
   pullCurve:
