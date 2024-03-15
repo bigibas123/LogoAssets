@@ -11,12 +11,10 @@ Material:
   m_Shader: {fileID: 4800000, guid: ddff9009cc01f0a4cb091fcccaf27c67, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - DO_ALPHA_PLS
-  - MULTI_TEXTURE
+  m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 1
+  m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 1
   m_CustomRenderQueue: -1
   stringTagMap:
