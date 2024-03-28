@@ -15,7 +15,6 @@ MonoBehaviour:
   filterMode: 0
   wrapMode: 0
   textures:
-  - {fileID: 2800000, guid: e42ac5cff7823f84aa487232f36c7a1f, type: 3}
   - {fileID: 2800000, guid: 788ce6fe6f252c94583fbba80c5e96b5, type: 3}
   - {fileID: 2800000, guid: aa61349a77f32df4f8b7bfeae3df4fb6, type: 3}
   - {fileID: 2800000, guid: 713241beccf01e24db381d198eea0f1e, type: 3}
