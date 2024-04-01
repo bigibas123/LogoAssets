@@ -497,7 +497,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.812.0
+  vrcfuryVersion: 1.822.0
   somethingIsBroken: 0
   config:
     features: []
@@ -578,7 +578,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.812.0
+  vrcfuryVersion: 1.822.0
   somethingIsBroken: 0
   config:
     features: []
@@ -596,7 +596,7 @@ MonoBehaviour:
           actions:
           - rid: 2775620544861306888
         saved: 0
-        slider: 0
+        slider: 1
         sliderInactiveAtZero: 0
         securityEnabled: 0
         defaultOn: 0
@@ -646,7 +646,7 @@ MonoBehaviour:
         renderer: {fileID: 4087415341618954705}
         affectAllMeshes: 0
         propertyName: _OtherTextureId
-        value: 1
+        value: 4
         valueVector: {x: 0, y: 0, z: 0, w: 0}
         valueColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &5605244627685155766
@@ -663,7 +663,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.812.0
+  vrcfuryVersion: 1.822.0
   somethingIsBroken: 0
   config:
     features: []
