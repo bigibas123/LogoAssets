@@ -30,7 +30,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _AL_General_Intensity: 1
-    - _MinAmbient: 0
+    - _MinAmbient: 0.1
     - _OtherTextureId: 0
     m_Colors: []
   m_BuildTextureStacks: []
