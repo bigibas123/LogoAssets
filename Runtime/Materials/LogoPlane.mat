@@ -11,7 +11,8 @@ Material:
   m_Shader: {fileID: 4800000, guid: ddff9009cc01f0a4cb091fcccaf27c67, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - ALPHA_MUL
   m_InvalidKeywords: []
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
@@ -30,6 +31,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _AL_General_Intensity: 1
+    - _Alpha_Multiply: 1
     - _MinAmbient: 0.1
     - _OtherTextureId: 0
     m_Colors: []

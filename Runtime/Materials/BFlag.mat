@@ -34,6 +34,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _AL_General_Intensity: 0.5
+    - _Alpha_Multiply: 0
     - _MinAmbient: 1
     - _OtherTextureId: 0
     m_Colors: []
