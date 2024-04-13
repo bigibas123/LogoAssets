@@ -79,6 +79,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 5605244627685155766}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d113e2023fac05f4888ace0fefcc56be,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1746273871787742959}
     - targetCorrespondingSourceObject: {fileID: 412465934317251941, guid: d113e2023fac05f4888ace0fefcc56be,
         type: 3}
       insertIndex: -1
@@ -497,7 +501,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.822.0
+  vrcfuryVersion: 1.833.0
   somethingIsBroken: 0
   config:
     features: []
@@ -578,7 +582,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.822.0
+  vrcfuryVersion: 1.833.0
   somethingIsBroken: 0
   config:
     features: []
@@ -663,7 +667,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.822.0
+  vrcfuryVersion: 1.833.0
   somethingIsBroken: 0
   config:
     features: []
@@ -691,3 +695,31 @@ MonoBehaviour:
         value: 0
         valueVector: {x: 0, y: 0, z: 0, w: 0}
         valueColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1746273871787742959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5744270111249358247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.833.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 2848584252778086400
+  references:
+    version: 2
+    RefIds:
+    - rid: 2848584252778086400
+      type: {class: WorldConstraint, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 0
+        menuPath: Props/YakeFlag/WC
