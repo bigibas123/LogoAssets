@@ -310,6 +310,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 4861309151372140790}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2509473213491551689 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7036213049465896255, guid: d113e2023fac05f4888ace0fefcc56be,
+    type: 3}
+  m_PrefabInstance: {fileID: 4861309151372140790}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3283394497320325433 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7991113125823017423, guid: d113e2023fac05f4888ace0fefcc56be,
+    type: 3}
+  m_PrefabInstance: {fileID: 4861309151372140790}
+  m_PrefabAsset: {fileID: 0}
 --- !u!137 &4087415341618954705 stripped
 SkinnedMeshRenderer:
   m_CorrespondingSourceObject: {fileID: -301815450448535257, guid: d113e2023fac05f4888ace0fefcc56be,
@@ -501,7 +513,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.833.0
+  vrcfuryVersion: 1.857.0
   somethingIsBroken: 0
   config:
     features: []
@@ -518,6 +530,8 @@ MonoBehaviour:
         state:
           actions:
           - rid: 2775620544861306886
+          - rid: 7871994271507939347
+          - rid: 7871994271507939369
         saved: 0
         slider: 0
         sliderInactiveAtZero: 0
@@ -568,6 +582,22 @@ MonoBehaviour:
         androidActive: 0
         obj: {fileID: 5744270111249358247}
         mode: 0
+    - rid: 7871994271507939347
+      type: {class: ScaleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 2509473213491551689}
+        scale: 2
+    - rid: 7871994271507939369
+      type: {class: ScaleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 3283394497320325433}
+        scale: 2
 --- !u!114 &8596779701354430436
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -582,7 +612,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.833.0
+  vrcfuryVersion: 1.857.0
   somethingIsBroken: 0
   config:
     features: []
@@ -667,7 +697,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.833.0
+  vrcfuryVersion: 1.857.0
   somethingIsBroken: 0
   config:
     features: []
@@ -683,6 +713,8 @@ MonoBehaviour:
         action:
           actions:
           - rid: 2775620544861306890
+          - rid: 7871994271507939346
+          - rid: 7871994271507939370
     - rid: 2775620544861306890
       type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
       data:
@@ -695,6 +727,22 @@ MonoBehaviour:
         value: 0
         valueVector: {x: 0, y: 0, z: 0, w: 0}
         valueColor: {r: 1, g: 1, b: 1, a: 1}
+    - rid: 7871994271507939346
+      type: {class: ScaleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 2509473213491551689}
+        scale: 0.5
+    - rid: 7871994271507939370
+      type: {class: ScaleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        obj: {fileID: 3283394497320325433}
+        scale: 0.5
 --- !u!114 &1746273871787742959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -709,7 +757,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.833.0
+  vrcfuryVersion: 1.857.0
   somethingIsBroken: 0
   config:
     features: []
