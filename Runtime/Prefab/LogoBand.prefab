@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: -1915468845302093969}
   - component: {fileID: 99533917111007877}
   - component: {fileID: 68363855449086082}
+  - component: {fileID: 8380584934156368835}
   m_Layer: 0
   m_Name: LogoBand
   m_TagString: Untagged
@@ -48,8 +49,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 3
-  unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.833.0
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.933.0
   somethingIsBroken: 0
   config:
     features: []
@@ -129,8 +130,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 3
-  unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.833.0
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.933.0
   somethingIsBroken: 0
   config:
     features: []
@@ -198,7 +199,7 @@ MonoBehaviour:
         androidActive: 0
         renderer: {fileID: 337028461651415316}
         affectAllMeshes: 0
-        propertyName: _OtherTextureId
+        propertyName: _Logo_FlipBookID
         value: 23
         valueVector: {x: 0, y: 0, z: 0, w: 0}
         valueColor: {r: 1, g: 1, b: 1, a: 1}
@@ -210,7 +211,7 @@ MonoBehaviour:
         androidActive: 0
         renderer: {fileID: 6564477706857464273}
         affectAllMeshes: 0
-        propertyName: _OtherTextureId
+        propertyName: _Logo_FlipBookID
         value: 23
         valueVector: {x: 0, y: 0, z: 0, w: 0}
         valueColor: {r: 1, g: 1, b: 1, a: 1}
@@ -227,8 +228,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 3
-  unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.833.0
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.933.0
   somethingIsBroken: 0
   config:
     features: []
@@ -310,6 +311,87 @@ MonoBehaviour:
         affectAllMeshes: 0
         propertyName: _AL_General_Intensity
         value: 1
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &8380584934156368835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7055592349295351436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.933.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 516244985648251466
+  references:
+    version: 2
+    RefIds:
+    - rid: 516244985648251466
+      type: {class: ApplyDuringUpload, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 0
+        action:
+          actions:
+          - rid: 516244985648251467
+          - rid: 516244985648251468
+          - rid: 516244985648251469
+          - rid: 516244985648251470
+    - rid: 516244985648251467
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        renderer: {fileID: 337028461651415316}
+        affectAllMeshes: 0
+        propertyName: _Logo_FlipBookID
+        value: 0
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 1, g: 1, b: 1, a: 1}
+    - rid: 516244985648251468
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        renderer: {fileID: 6564477706857464273}
+        affectAllMeshes: 0
+        propertyName: _Logo_FlipBookID
+        value: 0
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 1, g: 1, b: 1, a: 1}
+    - rid: 516244985648251469
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        renderer: {fileID: 337028461651415316}
+        affectAllMeshes: 0
+        propertyName: _AL_General_Intensity
+        value: 0
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 1, g: 1, b: 1, a: 1}
+    - rid: 516244985648251470
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        renderer: {fileID: 6564477706857464273}
+        affectAllMeshes: 0
+        propertyName: _AL_General_Intensity
+        value: 0
         valueVector: {x: 0, y: 0, z: 0, w: 0}
         valueColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &6152578915834341740
