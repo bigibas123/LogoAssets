@@ -33,7 +33,7 @@ Material:
     - _AL_General_Intensity: 1
     - _Alpha_Multiply: 1
     - _EnableLTCGI: 0
+    - _Logo_FlipBookID: 0
     - _MinAmbient: 0.2
-    - _OtherTextureId: 0
     m_Colors: []
   m_BuildTextureStacks: []
