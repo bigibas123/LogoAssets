@@ -33,7 +33,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AL_General_Intensity: 0.5
+    - _AL_Theme_Weight: 0.5
     - _Alpha_Multiply: 0
     - _EnableLTCGI: 0
     - _Logo_FlipBookID: 0
