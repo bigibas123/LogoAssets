@@ -378,7 +378,7 @@ MonoBehaviour:
         androidActive: 0
         renderer: {fileID: 337028461651415316}
         affectAllMeshes: 0
-        propertyName: _AL_General_Intensity
+        propertyName: _AL_Theme_Weight
         value: 0
         valueVector: {x: 0, y: 0, z: 0, w: 0}
         valueColor: {r: 1, g: 1, b: 1, a: 1}
@@ -390,7 +390,7 @@ MonoBehaviour:
         androidActive: 0
         renderer: {fileID: 6564477706857464273}
         affectAllMeshes: 0
-        propertyName: _AL_General_Intensity
+        propertyName: _AL_Theme_Weight
         value: 0
         valueVector: {x: 0, y: 0, z: 0, w: 0}
         valueColor: {r: 1, g: 1, b: 1, a: 1}
