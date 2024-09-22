@@ -50,7 +50,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1013.0
+  vrcfuryVersion: 1.1075.0
   somethingIsBroken: 0
   config:
     features: []
@@ -131,7 +131,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1013.0
+  vrcfuryVersion: 1.1075.0
   somethingIsBroken: 0
   config:
     features: []
@@ -194,25 +194,29 @@ MonoBehaviour:
     - rid: 1001
       type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
       data:
-        version: 0
+        version: 2
         desktopActive: 0
         androidActive: 0
-        renderer: {fileID: 337028461651415316}
+        renderer: {fileID: 0}
+        renderer2: {fileID: 3031412675570544665}
         affectAllMeshes: 0
         propertyName: _Logo_FlipBookID
-        value: 23
+        propertyType: 0
+        value: 24
         valueVector: {x: 0, y: 0, z: 0, w: 0}
         valueColor: {r: 1, g: 1, b: 1, a: 1}
     - rid: 6903258707450921395
       type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
       data:
-        version: 0
+        version: 2
         desktopActive: 0
         androidActive: 0
-        renderer: {fileID: 6564477706857464273}
+        renderer: {fileID: 0}
+        renderer2: {fileID: 8505608604861204840}
         affectAllMeshes: 0
         propertyName: _Logo_FlipBookID
-        value: 23
+        propertyType: 0
+        value: 24
         valueVector: {x: 0, y: 0, z: 0, w: 0}
         valueColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &68363855449086082
@@ -229,7 +233,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1013.0
+  vrcfuryVersion: 1.1075.0
   somethingIsBroken: 0
   config:
     features: []
@@ -292,24 +296,28 @@ MonoBehaviour:
     - rid: 1001
       type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
       data:
-        version: 0
+        version: 2
         desktopActive: 0
         androidActive: 0
-        renderer: {fileID: 337028461651415316}
+        renderer: {fileID: 0}
+        renderer2: {fileID: 3031412675570544665}
         affectAllMeshes: 0
         propertyName: _AL_Theme_Weight
+        propertyType: 0
         value: 1
         valueVector: {x: 0, y: 0, z: 0, w: 0}
         valueColor: {r: 1, g: 1, b: 1, a: 1}
     - rid: 6903258707450921396
       type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
       data:
-        version: 0
+        version: 2
         desktopActive: 0
         androidActive: 0
-        renderer: {fileID: 6564477706857464273}
+        renderer: {fileID: 0}
+        renderer2: {fileID: 8505608604861204840}
         affectAllMeshes: 0
         propertyName: _AL_Theme_Weight
+        propertyType: 0
         value: 1
         valueVector: {x: 0, y: 0, z: 0, w: 0}
         valueColor: {r: 1, g: 1, b: 1, a: 1}
@@ -327,7 +335,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1013.0
+  vrcfuryVersion: 1.1075.0
   somethingIsBroken: 0
   config:
     features: []
@@ -349,48 +357,56 @@ MonoBehaviour:
     - rid: 516244985648251467
       type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
       data:
-        version: 0
+        version: 2
         desktopActive: 0
         androidActive: 0
-        renderer: {fileID: 337028461651415316}
+        renderer: {fileID: 0}
+        renderer2: {fileID: 3031412675570544665}
         affectAllMeshes: 0
         propertyName: _Logo_FlipBookID
+        propertyType: 0
         value: 0
         valueVector: {x: 0, y: 0, z: 0, w: 0}
         valueColor: {r: 1, g: 1, b: 1, a: 1}
     - rid: 516244985648251468
       type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
       data:
-        version: 0
+        version: 2
         desktopActive: 0
         androidActive: 0
-        renderer: {fileID: 6564477706857464273}
+        renderer: {fileID: 0}
+        renderer2: {fileID: 8505608604861204840}
         affectAllMeshes: 0
         propertyName: _Logo_FlipBookID
+        propertyType: 0
         value: 0
         valueVector: {x: 0, y: 0, z: 0, w: 0}
         valueColor: {r: 1, g: 1, b: 1, a: 1}
     - rid: 516244985648251469
       type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
       data:
-        version: 0
+        version: 2
         desktopActive: 0
         androidActive: 0
-        renderer: {fileID: 337028461651415316}
+        renderer: {fileID: 0}
+        renderer2: {fileID: 3031412675570544665}
         affectAllMeshes: 0
         propertyName: _AL_Theme_Weight
+        propertyType: 0
         value: 0
         valueVector: {x: 0, y: 0, z: 0, w: 0}
         valueColor: {r: 1, g: 1, b: 1, a: 1}
     - rid: 516244985648251470
       type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
       data:
-        version: 0
+        version: 2
         desktopActive: 0
         androidActive: 0
-        renderer: {fileID: 6564477706857464273}
+        renderer: {fileID: 0}
+        renderer2: {fileID: 8505608604861204840}
         affectAllMeshes: 0
         propertyName: _AL_Theme_Weight
+        propertyType: 0
         value: 0
         valueVector: {x: 0, y: 0, z: 0, w: 0}
         valueColor: {r: 1, g: 1, b: 1, a: 1}
@@ -451,9 +467,9 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb4f4a6b2f1740d49b723800c4cc5d0a, type: 3}
---- !u!23 &337028461651415316 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: -3328436700166686600, guid: bb4f4a6b2f1740d49b723800c4cc5d0a, type: 3}
+--- !u!1 &3031412675570544665 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9183934931831789941, guid: bb4f4a6b2f1740d49b723800c4cc5d0a, type: 3}
   m_PrefabInstance: {fileID: 6152578915834341740}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &5974271816470908551 stripped
@@ -461,8 +477,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: bb4f4a6b2f1740d49b723800c4cc5d0a, type: 3}
   m_PrefabInstance: {fileID: 6152578915834341740}
   m_PrefabAsset: {fileID: 0}
---- !u!23 &6564477706857464273 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 1043687621364607165, guid: bb4f4a6b2f1740d49b723800c4cc5d0a, type: 3}
+--- !u!1 &8505608604861204840 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2552314050673319940, guid: bb4f4a6b2f1740d49b723800c4cc5d0a, type: 3}
   m_PrefabInstance: {fileID: 6152578915834341740}
   m_PrefabAsset: {fileID: 0}
