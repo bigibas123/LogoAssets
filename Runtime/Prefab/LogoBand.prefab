@@ -50,7 +50,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1075.0
+  vrcfuryVersion: 1.1083.0
   somethingIsBroken: 0
   config:
     features: []
@@ -109,12 +109,15 @@ MonoBehaviour:
         globalParam: 
         holdButton: 0
         invertRestLogic: 0
+        expandIntoTransition: 1
     - rid: 1001
       type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
       data:
         version: 1
         desktopActive: 0
         androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
         obj: {fileID: 7055592349295351436}
         mode: 0
 --- !u!114 &99533917111007877
@@ -131,7 +134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1075.0
+  vrcfuryVersion: 1.1083.0
   somethingIsBroken: 0
   config:
     features: []
@@ -147,6 +150,7 @@ MonoBehaviour:
         name: Props/LogoBand/Logo
         state:
           actions:
+          - rid: 3456031776809943500
           - rid: 1001
           - rid: 6903258707450921395
         saved: 1
@@ -191,18 +195,37 @@ MonoBehaviour:
         globalParam: 
         holdButton: 0
         invertRestLogic: 0
+        expandIntoTransition: 1
     - rid: 1001
       type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
       data:
         version: 2
         desktopActive: 0
         androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
         renderer: {fileID: 0}
         renderer2: {fileID: 3031412675570544665}
         affectAllMeshes: 0
         propertyName: _Logo_FlipBookID
         propertyType: 0
-        value: 24
+        value: 23
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 1, g: 1, b: 1, a: 1}
+    - rid: 3456031776809943500
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 2
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        renderer: {fileID: 0}
+        renderer2: {fileID: 729435839582966807}
+        affectAllMeshes: 0
+        propertyName: _Logo_FlipBookID
+        propertyType: 0
+        value: 23
         valueVector: {x: 0, y: 0, z: 0, w: 0}
         valueColor: {r: 1, g: 1, b: 1, a: 1}
     - rid: 6903258707450921395
@@ -211,12 +234,14 @@ MonoBehaviour:
         version: 2
         desktopActive: 0
         androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
         renderer: {fileID: 0}
         renderer2: {fileID: 8505608604861204840}
         affectAllMeshes: 0
         propertyName: _Logo_FlipBookID
         propertyType: 0
-        value: 24
+        value: 23
         valueVector: {x: 0, y: 0, z: 0, w: 0}
         valueColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &68363855449086082
@@ -233,7 +258,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1075.0
+  vrcfuryVersion: 1.1083.0
   somethingIsBroken: 0
   config:
     features: []
@@ -249,6 +274,7 @@ MonoBehaviour:
         name: Props/LogoBand/AL
         state:
           actions:
+          - rid: 3456031776809943501
           - rid: 1001
           - rid: 6903258707450921396
         saved: 1
@@ -293,14 +319,33 @@ MonoBehaviour:
         globalParam: 
         holdButton: 0
         invertRestLogic: 0
+        expandIntoTransition: 1
     - rid: 1001
       type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
       data:
         version: 2
         desktopActive: 0
         androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
         renderer: {fileID: 0}
         renderer2: {fileID: 3031412675570544665}
+        affectAllMeshes: 0
+        propertyName: _AL_Theme_Weight
+        propertyType: 0
+        value: 1
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 1, g: 1, b: 1, a: 1}
+    - rid: 3456031776809943501
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 2
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        renderer: {fileID: 0}
+        renderer2: {fileID: 729435839582966807}
         affectAllMeshes: 0
         propertyName: _AL_Theme_Weight
         propertyType: 0
@@ -313,6 +358,8 @@ MonoBehaviour:
         version: 2
         desktopActive: 0
         androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
         renderer: {fileID: 0}
         renderer2: {fileID: 8505608604861204840}
         affectAllMeshes: 0
@@ -335,7 +382,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1075.0
+  vrcfuryVersion: 1.1083.0
   somethingIsBroken: 0
   config:
     features: []
@@ -350,16 +397,20 @@ MonoBehaviour:
         version: 0
         action:
           actions:
+          - rid: 3456031776809943502
           - rid: 516244985648251467
           - rid: 516244985648251468
-          - rid: 516244985648251469
+          - rid: 3456031776809943503
           - rid: 516244985648251470
+          - rid: 516244985648251469
     - rid: 516244985648251467
       type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
       data:
         version: 2
         desktopActive: 0
         androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
         renderer: {fileID: 0}
         renderer2: {fileID: 3031412675570544665}
         affectAllMeshes: 0
@@ -374,6 +425,8 @@ MonoBehaviour:
         version: 2
         desktopActive: 0
         androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
         renderer: {fileID: 0}
         renderer2: {fileID: 8505608604861204840}
         affectAllMeshes: 0
@@ -388,6 +441,8 @@ MonoBehaviour:
         version: 2
         desktopActive: 0
         androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
         renderer: {fileID: 0}
         renderer2: {fileID: 3031412675570544665}
         affectAllMeshes: 0
@@ -402,8 +457,42 @@ MonoBehaviour:
         version: 2
         desktopActive: 0
         androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
         renderer: {fileID: 0}
         renderer2: {fileID: 8505608604861204840}
+        affectAllMeshes: 0
+        propertyName: _AL_Theme_Weight
+        propertyType: 0
+        value: 0
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 1, g: 1, b: 1, a: 1}
+    - rid: 3456031776809943502
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 2
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        renderer: {fileID: 0}
+        renderer2: {fileID: 729435839582966807}
+        affectAllMeshes: 0
+        propertyName: _Logo_FlipBookID
+        propertyType: 0
+        value: 0
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 1, g: 1, b: 1, a: 1}
+    - rid: 3456031776809943503
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 2
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        renderer: {fileID: 0}
+        renderer2: {fileID: 729435839582966807}
         affectAllMeshes: 0
         propertyName: _AL_Theme_Weight
         propertyType: 0
@@ -467,6 +556,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb4f4a6b2f1740d49b723800c4cc5d0a, type: 3}
+--- !u!1 &729435839582966807 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2342676764404925061, guid: bb4f4a6b2f1740d49b723800c4cc5d0a, type: 3}
+  m_PrefabInstance: {fileID: 6152578915834341740}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &3031412675570544665 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9183934931831789941, guid: bb4f4a6b2f1740d49b723800c4cc5d0a, type: 3}
