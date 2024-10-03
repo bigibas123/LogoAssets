@@ -14,14 +14,10 @@ Material:
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 1
   m_CustomRenderQueue: -1
-  stringTagMap:
-    AllLockedGUIDS: bb4a62029615fec4a8680062291c782d
-    OptimizedShaderFolder: Flag
-    OriginalKeywords: COLOR_GRADING_HDR _EMISSION _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
-    OriginalShader: ".poiyomi/\u2022 Poiyomi Toon \u2022"
+  stringTagMap: {}
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
@@ -33,7 +29,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AL_Theme_Weight: 0.5
+    - _AL_Theme_Weight: 0
     - _Alpha_Multiply: 0
     - _EnableLTCGI: 0
     - _Logo_FlipBookID: 0

@@ -50,7 +50,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1083.0
+  vrcfuryVersion: 1.1093.0
   somethingIsBroken: 0
   config:
     features: []
@@ -134,7 +134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1083.0
+  vrcfuryVersion: 1.1093.0
   somethingIsBroken: 0
   config:
     features: []
@@ -209,7 +209,7 @@ MonoBehaviour:
         affectAllMeshes: 0
         propertyName: _Logo_FlipBookID
         propertyType: 0
-        value: 23
+        value: 24
         valueVector: {x: 0, y: 0, z: 0, w: 0}
         valueColor: {r: 1, g: 1, b: 1, a: 1}
     - rid: 3456031776809943500
@@ -225,7 +225,7 @@ MonoBehaviour:
         affectAllMeshes: 0
         propertyName: _Logo_FlipBookID
         propertyType: 0
-        value: 23
+        value: 24
         valueVector: {x: 0, y: 0, z: 0, w: 0}
         valueColor: {r: 1, g: 1, b: 1, a: 1}
     - rid: 6903258707450921395
@@ -241,7 +241,7 @@ MonoBehaviour:
         affectAllMeshes: 0
         propertyName: _Logo_FlipBookID
         propertyType: 0
-        value: 23
+        value: 24
         valueVector: {x: 0, y: 0, z: 0, w: 0}
         valueColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &68363855449086082
@@ -258,7 +258,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1083.0
+  vrcfuryVersion: 1.1093.0
   somethingIsBroken: 0
   config:
     features: []
@@ -382,7 +382,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1083.0
+  vrcfuryVersion: 1.1093.0
   somethingIsBroken: 0
   config:
     features: []
