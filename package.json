@@ -1,17 +1,16 @@
 {
   "name": "cc.dingemans.bigibas123.logoassets",
   "displayName": "Bigibas123's Logo assets",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "",
   "author": {
-    "name": "bigibas123"
+	"name": "bigibas123"
   },
   "unity": "2022.3",
   "description": "Logo-containing assets",
   "vpmDependencies": {
-    "lygia": ">=1.1.7",
-	"cc.dingemans.bigibas123.bigishader": ">=1.3.0",
-    	"com.vrcfury.vrcfury": ">=1.812.0"
+	"cc.dingemans.bigibas123.bigishader": ">=1.4.0",
+	"com.vrcfury.vrcfury": ">=1.812.0"
   },
   "url": "https://github.com/bigibas123/LogoAssets.git",
   "legacyFolders": {},

@@ -331,7 +331,7 @@ MonoBehaviour:
         renderer: {fileID: 0}
         renderer2: {fileID: 3031412675570544665}
         affectAllMeshes: 0
-        propertyName: _AL_Theme_Weight
+        propertyName: _AL_Weight
         propertyType: 0
         value: 1
         valueVector: {x: 0, y: 0, z: 0, w: 0}
@@ -347,7 +347,7 @@ MonoBehaviour:
         renderer: {fileID: 0}
         renderer2: {fileID: 729435839582966807}
         affectAllMeshes: 0
-        propertyName: _AL_Theme_Weight
+        propertyName: _AL_Weight
         propertyType: 0
         value: 1
         valueVector: {x: 0, y: 0, z: 0, w: 0}
@@ -363,7 +363,7 @@ MonoBehaviour:
         renderer: {fileID: 0}
         renderer2: {fileID: 8505608604861204840}
         affectAllMeshes: 0
-        propertyName: _AL_Theme_Weight
+        propertyName: _AL_Weight
         propertyType: 0
         value: 1
         valueVector: {x: 0, y: 0, z: 0, w: 0}
@@ -446,7 +446,7 @@ MonoBehaviour:
         renderer: {fileID: 0}
         renderer2: {fileID: 3031412675570544665}
         affectAllMeshes: 0
-        propertyName: _AL_Theme_Weight
+        propertyName: _AL_Weight
         propertyType: 0
         value: 0
         valueVector: {x: 0, y: 0, z: 0, w: 0}
@@ -462,7 +462,7 @@ MonoBehaviour:
         renderer: {fileID: 0}
         renderer2: {fileID: 8505608604861204840}
         affectAllMeshes: 0
-        propertyName: _AL_Theme_Weight
+        propertyName: _AL_Weight
         propertyType: 0
         value: 0
         valueVector: {x: 0, y: 0, z: 0, w: 0}
@@ -494,7 +494,7 @@ MonoBehaviour:
         renderer: {fileID: 0}
         renderer2: {fileID: 729435839582966807}
         affectAllMeshes: 0
-        propertyName: _AL_Theme_Weight
+        propertyName: _AL_Weight
         propertyType: 0
         value: 0
         valueVector: {x: 0, y: 0, z: 0, w: 0}
