@@ -7,14 +7,15 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ICEBLKPlane
-  m_Shader: {fileID: 4800000, guid: ddff9009cc01f0a4cb091fcccaf27c67, type: 3}
+  m_Name: HeartRate
+  m_Shader: {fileID: 4800000, guid: d60770c9d62cd724085fa0ca0c1efa68, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - ALPHA_MUL
+  - FLIP_XY
   m_InvalidKeywords: []
-  m_LightmapFlags: 1
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 1
   m_CustomRenderQueue: -1
@@ -23,18 +24,15 @@ Material:
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs:
-    - _MainTexArray:
-        m_Texture: {fileID: 18700000, guid: e8f339074ed9d5740bbe101e96385ab7, type: 2}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
+    m_TexEnvs: []
+    m_Ints:
+    - _HeartRate: 123
     m_Floats:
-    - _AL_Theme_Weight: 1
-    - _AL_Weight: 0
-    - _Alpha_Multiply: 1
     - _EnableLTCGI: 0
-    - _Logo_FlipBookID: 0
-    - _MinAmbient: 0.2
+    - _FlipXy: 1
+    - _Heartrate: 123
+    - _InvertX: 0
+    - _InvertY: 0
+    - _MinAmbient: 0
     m_Colors: []
   m_BuildTextureStacks: []
