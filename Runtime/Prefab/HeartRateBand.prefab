@@ -108,7 +108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1146.0
+  vrcfuryVersion: 1.1147.0
   somethingIsBroken: 0
   config:
     features: []
@@ -192,7 +192,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1146.0
+  vrcfuryVersion: 1.1147.0
   somethingIsBroken: 0
   config:
     features: []
@@ -209,7 +209,6 @@ MonoBehaviour:
         state:
           actions:
           - rid: 715441898314268677
-          - rid: 715441919437832504
         saved: 0
         slider: 1
         sliderInactiveAtZero: 0
@@ -269,20 +268,6 @@ MonoBehaviour:
         value: 200
         valueVector: {x: 0, y: 0, z: 0, w: 0}
         valueColor: {r: 1, g: 1, b: 1, a: 1}
-    - rid: 715441919437832504
-      type: {class: AnimationClipAction, ns: VF.Model.StateAction, asm: VRCFury}
-      data:
-        version: 0
-        desktopActive: 0
-        androidActive: 0
-        localOnly: 0
-        remoteOnly: 0
-        clip:
-          version: 1
-          fileID: 0
-          guid: 
-          id: 591dbe2b5d446ec47b2097dcad27abb6|Assets/Characters/Common/Misc/HeartRate.anim
-          objRef: {fileID: 7400000, guid: 591dbe2b5d446ec47b2097dcad27abb6, type: 2}
 --- !u!114 &6619559874568743532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -297,7 +282,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1146.0
+  vrcfuryVersion: 1.1147.0
   somethingIsBroken: 0
   config:
     features: []
