@@ -30,6 +30,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _AL_Theme_Weight: 0
+    - _AL_Weight: 0
     - _Alpha_Multiply: 0
     - _EnableLTCGI: 0
     - _Logo_FlipBookID: 0
