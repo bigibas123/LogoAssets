@@ -48,6 +48,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -301815450448535257, guid: d113e2023fac05f4888ace0fefcc56be, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d113e2023fac05f4888ace0fefcc56be, type: 3}
       propertyPath: m_Name
       value: FLAG_BY_YAKENO_decimated Variant
@@ -483,7 +487,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1127.0
+  vrcfuryVersion: 1.1210.0
   somethingIsBroken: 0
   config:
     features: []
@@ -589,7 +593,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1127.0
+  vrcfuryVersion: 1.1210.0
   somethingIsBroken: 0
   config:
     features: []
@@ -679,7 +683,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1127.0
+  vrcfuryVersion: 1.1210.0
   somethingIsBroken: 0
   config:
     features: []
@@ -747,7 +751,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1127.0
+  vrcfuryVersion: 1.1210.0
   somethingIsBroken: 0
   config:
     features: []
