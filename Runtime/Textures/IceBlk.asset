@@ -15,13 +15,13 @@ MonoBehaviour:
   filterMode: 0
   wrapMode: 0
   textures:
-  - {fileID: 2800000, guid: e42ac5cff7823f84aa487232f36c7a1f, type: 3}
   - {fileID: 2800000, guid: 788ce6fe6f252c94583fbba80c5e96b5, type: 3}
-  - {fileID: 2800000, guid: aa61349a77f32df4f8b7bfeae3df4fb6, type: 3}
+  - {fileID: 2800000, guid: e42ac5cff7823f84aa487232f36c7a1f, type: 3}
+  - {fileID: 2800000, guid: d5e99f74d2b607b4087fb5125c6a28f3, type: 3}
   - {fileID: 2800000, guid: 1dbb49849d6e0d74e8b71f97fbc91d6f, type: 3}
   - {fileID: 2800000, guid: e606229867276b44db03603062f74c62, type: 3}
   - {fileID: 2800000, guid: 1a485694ce4071748824ceaf75a79afe, type: 3}
+  - {fileID: 2800000, guid: a4282359e8f0cbc45bbb31d61091d6bd, type: 3}
   - {fileID: 2800000, guid: 57827c62c2ed8ba438713316f448f97c, type: 3}
   - {fileID: 2800000, guid: 7a853b3abe2404f448f245fe17135367, type: 3}
-  - {fileID: 2800000, guid: a4282359e8f0cbc45bbb31d61091d6bd, type: 3}
   flags: 1028
