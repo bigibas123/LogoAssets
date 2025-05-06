@@ -33,7 +33,6 @@ Material:
     - _AL_Theme_Weight: 1
     - _AL_Weight: 0
     - _Alpha_Multiply: 1
-    - _EnableLTCGI: 0
     - _Logo_FlipBookID: 0
     - _MinAmbient: 0.2
     m_Colors: []
