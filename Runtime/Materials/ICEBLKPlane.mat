@@ -11,8 +11,7 @@ Material:
   m_Shader: {fileID: 4800000, guid: ddff9009cc01f0a4cb091fcccaf27c67, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - ALPHA_MUL
+  m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 1
@@ -30,9 +29,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AL_Theme_Weight: 1
     - _AL_Weight: 0
-    - _Alpha_Multiply: 1
+    - _Alpha_Non_Premul: 1
     - _Logo_FlipBookID: 0
     - _MinAmbient: 0.2
     m_Colors: []

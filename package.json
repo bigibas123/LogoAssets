@@ -9,7 +9,7 @@
   "unity": "2022.3",
   "description": "Logo-containing assets",
   "vpmDependencies": {
-	"cc.dingemans.bigibas123.bigishader": ">=1.6.3",
+	"cc.dingemans.bigibas123.bigishader": ">=2.1.0",
 	"com.vrcfury.vrcfury": ">=1.1226.0"
   },
   "url": "https://github.com/bigibas123/LogoAssets.git",
