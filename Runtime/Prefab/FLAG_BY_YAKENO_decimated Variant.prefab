@@ -48,10 +48,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -301815450448535257, guid: d113e2023fac05f4888ace0fefcc56be, type: 3}
-      propertyPath: m_ReflectionProbeUsage
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d113e2023fac05f4888ace0fefcc56be, type: 3}
       propertyPath: m_Name
       value: FLAG_BY_YAKENO_decimated Variant
@@ -108,6 +104,7 @@ MonoBehaviour:
   integrationType: 1
   rootTransform: {fileID: 4938989771532344254}
   ignoreTransforms: []
+  ignoreOtherPhysBones: 0
   endpointPosition: {x: 0, y: 0.247825, z: 0}
   multiChildType: 1
   pull: 0.1
@@ -340,6 +337,7 @@ MonoBehaviour:
   rootTransform: {fileID: 1106597673890601067}
   ignoreTransforms:
   - {fileID: 4938989771532344254}
+  ignoreOtherPhysBones: 0
   endpointPosition: {x: 0, y: 0.267825, z: 0}
   multiChildType: 0
   pull: 0.01
@@ -487,7 +485,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1210.0
+  vrcfuryVersion: 1.1230.0
   somethingIsBroken: 0
   config:
     features: []
@@ -593,7 +591,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1210.0
+  vrcfuryVersion: 1.1230.0
   somethingIsBroken: 0
   config:
     features: []
@@ -683,7 +681,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1210.0
+  vrcfuryVersion: 1.1230.0
   somethingIsBroken: 0
   config:
     features: []
@@ -751,7 +749,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1210.0
+  vrcfuryVersion: 1.1230.0
   somethingIsBroken: 0
   config:
     features: []
