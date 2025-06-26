@@ -64,6 +64,9 @@ PrefabInstance:
       addedObject: {fileID: 8596779701354430436}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d113e2023fac05f4888ace0fefcc56be, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 1500133384203433474}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d113e2023fac05f4888ace0fefcc56be, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 5605244627685155766}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d113e2023fac05f4888ace0fefcc56be, type: 3}
       insertIndex: -1
@@ -485,7 +488,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1230.0
+  vrcfuryVersion: 1.1238.0
   somethingIsBroken: 0
   config:
     features: []
@@ -591,7 +594,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1230.0
+  vrcfuryVersion: 1.1238.0
   somethingIsBroken: 0
   config:
     features: []
@@ -667,6 +670,96 @@ MonoBehaviour:
         value: 4
         valueVector: {x: 0, y: 0, z: 0, w: 0}
         valueColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1500133384203433474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5744270111249358247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1238.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 2775620544861306887
+  references:
+    version: 2
+    RefIds:
+    - rid: 2775620544861306887
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Props/YakeFlag/Audiolink
+        state:
+          actions:
+          - rid: 2775620544861306888
+        saved: 0
+        slider: 1
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 0
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 2775620544861306888
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 2
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        renderer: {fileID: 0}
+        renderer2: {fileID: 3283394497320325433}
+        affectAllMeshes: 0
+        propertyName: _AL_Weight
+        propertyType: 0
+        value: 1
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &5605244627685155766
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -681,7 +774,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1230.0
+  vrcfuryVersion: 1.1238.0
   somethingIsBroken: 0
   config:
     features: []
@@ -690,6 +783,22 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
+    - rid: 1766868516413636674
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 2
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        renderer: {fileID: 0}
+        renderer2: {fileID: 3283394497320325433}
+        affectAllMeshes: 0
+        propertyName: _AL_Weight
+        propertyType: 0
+        value: 0
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 1, g: 1, b: 1, a: 1}
     - rid: 2775620544861306889
       type: {class: ApplyDuringUpload, ns: VF.Model.Feature, asm: VRCFury}
       data:
@@ -699,6 +808,7 @@ MonoBehaviour:
           - rid: 2775620544861306890
           - rid: 7871994271507939346
           - rid: 7871994271507939370
+          - rid: 1766868516413636674
     - rid: 2775620544861306890
       type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
       data:
@@ -749,7 +859,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1230.0
+  vrcfuryVersion: 1.1238.0
   somethingIsBroken: 0
   config:
     features: []
