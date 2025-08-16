@@ -1,16 +1,17 @@
 {
   "name": "cc.dingemans.bigibas123.logoassets",
   "displayName": "Bigibas123's Logo assets",
-  "version": "1.1.0",
-  "license": "",
+  "version": "1.2.0",
+  "license": "MIT",
   "author": {
 	"name": "bigibas123"
   },
   "unity": "2022.3",
   "description": "Logo-containing assets",
   "vpmDependencies": {
-	"cc.dingemans.bigibas123.bigishader": ">=2.1.0",
-	"com.vrcfury.vrcfury": ">=1.1238.0"
+	"cc.dingemans.bigibas123.bigishader": ">=3.1.0",
+    "cc.dingemans.bigibas123.bulkmaterialgenerators": ">=0.0.1",
+	"com.vrcfury.vrcfury": ">=1.1249"
   },
   "url": "https://github.com/bigibas123/LogoAssets.git",
   "legacyFolders": {},

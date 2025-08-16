@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7683615337275116598}
   - component: {fileID: -1915468845302093969}
-  - component: {fileID: 99533917111007877}
   - component: {fileID: 68363855449086082}
   - component: {fileID: 8380584934156368835}
   m_Layer: 0
@@ -50,7 +49,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1226.0
+  vrcfuryVersion: 1.1249.0
   somethingIsBroken: 0
   config:
     features: []
@@ -120,130 +119,6 @@ MonoBehaviour:
         remoteOnly: 0
         obj: {fileID: 7055592349295351436}
         mode: 0
---- !u!114 &99533917111007877
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7055592349295351436}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 3
-  unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1226.0
-  somethingIsBroken: 0
-  config:
-    features: []
-  content:
-    rid: 1000
-  references:
-    version: 2
-    RefIds:
-    - rid: 1000
-      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
-      data:
-        version: 3
-        name: Props/LogoBand/Logo
-        state:
-          actions:
-          - rid: 3456031776809943500
-          - rid: 1001
-          - rid: 6903258707450921395
-        saved: 1
-        slider: 1
-        sliderInactiveAtZero: 0
-        securityEnabled: 0
-        defaultOn: 0
-        includeInRest: 0
-        exclusiveOffState: 0
-        enableExclusiveTag: 0
-        exclusiveTag: 
-        resetPhysbones: []
-        hasExitTime: 0
-        enableIcon: 0
-        icon:
-          version: 1
-          fileID: 0
-          guid: 
-          id: 
-          objRef: {fileID: 0}
-        enableDriveGlobalParam: 0
-        driveGlobalParam: 
-        separateLocal: 0
-        localState:
-          actions: []
-        hasTransition: 0
-        transitionStateIn:
-          actions: []
-        transitionStateOut:
-          actions: []
-        transitionTimeIn: 0
-        transitionTimeOut: 0
-        localTransitionStateIn:
-          actions: []
-        localTransitionStateOut:
-          actions: []
-        localTransitionTimeIn: 0
-        localTransitionTimeOut: 0
-        simpleOutTransition: 1
-        defaultSliderValue: 0
-        useGlobalParam: 0
-        globalParam: 
-        holdButton: 0
-        invertRestLogic: 0
-        expandIntoTransition: 1
-    - rid: 1001
-      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
-      data:
-        version: 2
-        desktopActive: 0
-        androidActive: 0
-        localOnly: 0
-        remoteOnly: 0
-        renderer: {fileID: 0}
-        renderer2: {fileID: 3031412675570544665}
-        affectAllMeshes: 0
-        propertyName: _Logo_FlipBookID
-        propertyType: 0
-        value: 25
-        valueVector: {x: 0, y: 0, z: 0, w: 0}
-        valueColor: {r: 1, g: 1, b: 1, a: 1}
-    - rid: 3456031776809943500
-      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
-      data:
-        version: 2
-        desktopActive: 0
-        androidActive: 0
-        localOnly: 0
-        remoteOnly: 0
-        renderer: {fileID: 0}
-        renderer2: {fileID: 729435839582966807}
-        affectAllMeshes: 0
-        propertyName: _Logo_FlipBookID
-        propertyType: 0
-        value: 25
-        valueVector: {x: 0, y: 0, z: 0, w: 0}
-        valueColor: {r: 1, g: 1, b: 1, a: 1}
-    - rid: 6903258707450921395
-      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
-      data:
-        version: 2
-        desktopActive: 0
-        androidActive: 0
-        localOnly: 0
-        remoteOnly: 0
-        renderer: {fileID: 0}
-        renderer2: {fileID: 8505608604861204840}
-        affectAllMeshes: 0
-        propertyName: _Logo_FlipBookID
-        propertyType: 0
-        value: 25
-        valueVector: {x: 0, y: 0, z: 0, w: 0}
-        valueColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &68363855449086082
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -258,7 +133,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1226.0
+  vrcfuryVersion: 1.1249.0
   somethingIsBroken: 0
   config:
     features: []
@@ -382,7 +257,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1226.0
+  vrcfuryVersion: 1.1249.0
   somethingIsBroken: 0
   config:
     features: []
@@ -566,16 +441,75 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -2342676764404925061, guid: cee315dfa4cbcf84a987ed7b4904766d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 552767803759255877}
+    - targetCorrespondingSourceObject: {fileID: 9183934931831789941, guid: cee315dfa4cbcf84a987ed7b4904766d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3147478896911050252}
+    - targetCorrespondingSourceObject: {fileID: 2552314050673319940, guid: cee315dfa4cbcf84a987ed7b4904766d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3243175748884398597}
   m_SourcePrefab: {fileID: 100100000, guid: cee315dfa4cbcf84a987ed7b4904766d, type: 3}
+--- !u!23 &337028461651415316 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -3328436700166686600, guid: cee315dfa4cbcf84a987ed7b4904766d, type: 3}
+  m_PrefabInstance: {fileID: 6152578915834341740}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &729435839582966807 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2342676764404925061, guid: cee315dfa4cbcf84a987ed7b4904766d, type: 3}
   m_PrefabInstance: {fileID: 6152578915834341740}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &552767803759255877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729435839582966807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a37fc0da9bdb4be5a5e50a1a25afe17c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slots:
+  - enabled: 1
+    renderer: {fileID: 5030176156820423697}
+    slot: 0
+    menuPath: Props/LogoBand/Logo
+    sourceProperty: _MainTexArray
+    targetShader: {fileID: 4800000, guid: 5ad730916d1841c3a2049bbcf2bd788b, type: 3}
+    targetProperty: _MainTex
 --- !u!1 &3031412675570544665 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9183934931831789941, guid: cee315dfa4cbcf84a987ed7b4904766d, type: 3}
+  m_PrefabInstance: {fileID: 6152578915834341740}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3147478896911050252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3031412675570544665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a37fc0da9bdb4be5a5e50a1a25afe17c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slots:
+  - enabled: 1
+    renderer: {fileID: 337028461651415316}
+    slot: 0
+    menuPath: Props/LogoBand/Logo
+    sourceProperty: _MainTexArray
+    targetShader: {fileID: 4800000, guid: 5ad730916d1841c3a2049bbcf2bd788b, type: 3}
+    targetProperty: _MainTex
+--- !u!23 &5030176156820423697 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 1201510561200139645, guid: cee315dfa4cbcf84a987ed7b4904766d, type: 3}
   m_PrefabInstance: {fileID: 6152578915834341740}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &5974271816470908551 stripped
@@ -583,8 +517,33 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: cee315dfa4cbcf84a987ed7b4904766d, type: 3}
   m_PrefabInstance: {fileID: 6152578915834341740}
   m_PrefabAsset: {fileID: 0}
+--- !u!23 &6564477706857464273 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 1043687621364607165, guid: cee315dfa4cbcf84a987ed7b4904766d, type: 3}
+  m_PrefabInstance: {fileID: 6152578915834341740}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &8505608604861204840 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2552314050673319940, guid: cee315dfa4cbcf84a987ed7b4904766d, type: 3}
   m_PrefabInstance: {fileID: 6152578915834341740}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &3243175748884398597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8505608604861204840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a37fc0da9bdb4be5a5e50a1a25afe17c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slots:
+  - enabled: 1
+    renderer: {fileID: 6564477706857464273}
+    slot: 0
+    menuPath: Props/LogoBand/Logo
+    sourceProperty: _MainTexArray
+    targetShader: {fileID: 4800000, guid: 5ad730916d1841c3a2049bbcf2bd788b, type: 3}
+    targetProperty: _MainTex
