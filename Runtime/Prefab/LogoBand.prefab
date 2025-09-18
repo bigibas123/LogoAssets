@@ -272,44 +272,9 @@ MonoBehaviour:
         version: 0
         action:
           actions:
-          - rid: 3456031776809943502
-          - rid: 516244985648251467
-          - rid: 516244985648251468
           - rid: 3456031776809943503
           - rid: 516244985648251470
           - rid: 516244985648251469
-    - rid: 516244985648251467
-      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
-      data:
-        version: 2
-        desktopActive: 0
-        androidActive: 0
-        localOnly: 0
-        remoteOnly: 0
-        renderer: {fileID: 0}
-        renderer2: {fileID: 3031412675570544665}
-        affectAllMeshes: 0
-        propertyName: _Logo_FlipBookID
-        propertyType: 0
-        value: 0
-        valueVector: {x: 0, y: 0, z: 0, w: 0}
-        valueColor: {r: 1, g: 1, b: 1, a: 1}
-    - rid: 516244985648251468
-      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
-      data:
-        version: 2
-        desktopActive: 0
-        androidActive: 0
-        localOnly: 0
-        remoteOnly: 0
-        renderer: {fileID: 0}
-        renderer2: {fileID: 8505608604861204840}
-        affectAllMeshes: 0
-        propertyName: _Logo_FlipBookID
-        propertyType: 0
-        value: 0
-        valueVector: {x: 0, y: 0, z: 0, w: 0}
-        valueColor: {r: 1, g: 1, b: 1, a: 1}
     - rid: 516244985648251469
       type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
       data:
@@ -338,22 +303,6 @@ MonoBehaviour:
         renderer2: {fileID: 8505608604861204840}
         affectAllMeshes: 0
         propertyName: _AL_Weight
-        propertyType: 0
-        value: 0
-        valueVector: {x: 0, y: 0, z: 0, w: 0}
-        valueColor: {r: 1, g: 1, b: 1, a: 1}
-    - rid: 3456031776809943502
-      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
-      data:
-        version: 2
-        desktopActive: 0
-        androidActive: 0
-        localOnly: 0
-        remoteOnly: 0
-        renderer: {fileID: 0}
-        renderer2: {fileID: 729435839582966807}
-        affectAllMeshes: 0
-        propertyName: _Logo_FlipBookID
         propertyType: 0
         value: 0
         valueVector: {x: 0, y: 0, z: 0, w: 0}
@@ -444,13 +393,13 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: -2342676764404925061, guid: cee315dfa4cbcf84a987ed7b4904766d, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 552767803759255877}
+      addedObject: {fileID: 4550764360118810284}
     - targetCorrespondingSourceObject: {fileID: 9183934931831789941, guid: cee315dfa4cbcf84a987ed7b4904766d, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 3147478896911050252}
+      addedObject: {fileID: 392477747389324383}
     - targetCorrespondingSourceObject: {fileID: 2552314050673319940, guid: cee315dfa4cbcf84a987ed7b4904766d, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 3243175748884398597}
+      addedObject: {fileID: 6507832357091215964}
   m_SourcePrefab: {fileID: 100100000, guid: cee315dfa4cbcf84a987ed7b4904766d, type: 3}
 --- !u!23 &337028461651415316 stripped
 MeshRenderer:
@@ -462,7 +411,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: -2342676764404925061, guid: cee315dfa4cbcf84a987ed7b4904766d, type: 3}
   m_PrefabInstance: {fileID: 6152578915834341740}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &552767803759255877
+--- !u!114 &4550764360118810284
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -471,7 +420,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 729435839582966807}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a37fc0da9bdb4be5a5e50a1a25afe17c, type: 3}
+  m_Script: {fileID: 11500000, guid: 6ff6a938fff04caa89988122075ed4bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   slots:
@@ -479,15 +428,39 @@ MonoBehaviour:
     renderer: {fileID: 5030176156820423697}
     slot: 0
     menuPath: Props/LogoBand/Logo
-    sourceProperty: _MainTexArray
-    targetShader: {fileID: 4800000, guid: 5ad730916d1841c3a2049bbcf2bd788b, type: 3}
     targetProperty: _MainTex
+    textures:
+    - {fileID: 2800000, guid: 788ce6fe6f252c94583fbba80c5e96b5, type: 3}
+    - {fileID: 2800000, guid: 3558cc9c5841f7a4f9774a9bde7c7b8e, type: 3}
+    - {fileID: 2800000, guid: 1d78895749d8641409fb62752d2622ed, type: 3}
+    - {fileID: 2800000, guid: e986d9575ad0d8b44afbe118f90b1b52, type: 3}
+    - {fileID: 2800000, guid: f4031ef6532027a4b828f7a4a238251a, type: 3}
+    - {fileID: 2800000, guid: c0f06509c4771984ab873ebc78b6847c, type: 3}
+    - {fileID: 2800000, guid: 1a485694ce4071748824ceaf75a79afe, type: 3}
+    - {fileID: 2800000, guid: 24dc505fd8aa14c429f03ed43ff4d5b1, type: 3}
+    - {fileID: 2800000, guid: 9072a2c67e5c5a44b815b36963dda010, type: 3}
+    - {fileID: 2800000, guid: 713241beccf01e24db381d198eea0f1e, type: 3}
+    - {fileID: 2800000, guid: fc87145b904b7c64cb7aa9e4b88c88df, type: 3}
+    - {fileID: 2800000, guid: 55a6e7364b4668f4b9e55702b42155d2, type: 3}
+    - {fileID: 2800000, guid: 291d60997d72c364ba6eb0849771d507, type: 3}
+    - {fileID: 2800000, guid: af448397cb1c75247bdd61e4074e4796, type: 3}
+    - {fileID: 2800000, guid: f84977500c70c3f48b1d35b2fb0f3481, type: 3}
+    - {fileID: 2800000, guid: 9508fcc33f8e9f24e90f39dbefa8abc9, type: 3}
+    - {fileID: 2800000, guid: 45c949951a266e24fa641e6a06dbcc09, type: 3}
+    - {fileID: 2800000, guid: cb94019264e31284c86e0d6bee082e1c, type: 3}
+    - {fileID: 2800000, guid: 6a76b0e5611d65c4b9543c1b6af30f12, type: 3}
+    - {fileID: 2800000, guid: 45d9ceb9018be1d49bf17a07cc8708e1, type: 3}
+    - {fileID: 2800000, guid: f4df03d62e407f74f87224a95dff1fa4, type: 3}
+    - {fileID: 2800000, guid: d94095a054d3eaa4da9f7abae5e11ea7, type: 3}
+    - {fileID: 2800000, guid: 4165cd4ac403613499b521016e50d3aa, type: 3}
+    - {fileID: 2800000, guid: f64cb670300f53b45835e8ea6ae87ab9, type: 3}
+    - {fileID: 2800000, guid: 0d053dbffe56d81429bbb40661851085, type: 3}
 --- !u!1 &3031412675570544665 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9183934931831789941, guid: cee315dfa4cbcf84a987ed7b4904766d, type: 3}
   m_PrefabInstance: {fileID: 6152578915834341740}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &3147478896911050252
+--- !u!114 &392477747389324383
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -496,7 +469,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3031412675570544665}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a37fc0da9bdb4be5a5e50a1a25afe17c, type: 3}
+  m_Script: {fileID: 11500000, guid: 6ff6a938fff04caa89988122075ed4bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   slots:
@@ -504,9 +477,33 @@ MonoBehaviour:
     renderer: {fileID: 337028461651415316}
     slot: 0
     menuPath: Props/LogoBand/Logo
-    sourceProperty: _MainTexArray
-    targetShader: {fileID: 4800000, guid: 5ad730916d1841c3a2049bbcf2bd788b, type: 3}
     targetProperty: _MainTex
+    textures:
+    - {fileID: 2800000, guid: 788ce6fe6f252c94583fbba80c5e96b5, type: 3}
+    - {fileID: 2800000, guid: 3558cc9c5841f7a4f9774a9bde7c7b8e, type: 3}
+    - {fileID: 2800000, guid: 1d78895749d8641409fb62752d2622ed, type: 3}
+    - {fileID: 2800000, guid: e986d9575ad0d8b44afbe118f90b1b52, type: 3}
+    - {fileID: 2800000, guid: f4031ef6532027a4b828f7a4a238251a, type: 3}
+    - {fileID: 2800000, guid: c0f06509c4771984ab873ebc78b6847c, type: 3}
+    - {fileID: 2800000, guid: 1a485694ce4071748824ceaf75a79afe, type: 3}
+    - {fileID: 2800000, guid: 24dc505fd8aa14c429f03ed43ff4d5b1, type: 3}
+    - {fileID: 2800000, guid: 9072a2c67e5c5a44b815b36963dda010, type: 3}
+    - {fileID: 2800000, guid: 713241beccf01e24db381d198eea0f1e, type: 3}
+    - {fileID: 2800000, guid: fc87145b904b7c64cb7aa9e4b88c88df, type: 3}
+    - {fileID: 2800000, guid: 55a6e7364b4668f4b9e55702b42155d2, type: 3}
+    - {fileID: 2800000, guid: 291d60997d72c364ba6eb0849771d507, type: 3}
+    - {fileID: 2800000, guid: af448397cb1c75247bdd61e4074e4796, type: 3}
+    - {fileID: 2800000, guid: f84977500c70c3f48b1d35b2fb0f3481, type: 3}
+    - {fileID: 2800000, guid: 9508fcc33f8e9f24e90f39dbefa8abc9, type: 3}
+    - {fileID: 2800000, guid: 45c949951a266e24fa641e6a06dbcc09, type: 3}
+    - {fileID: 2800000, guid: cb94019264e31284c86e0d6bee082e1c, type: 3}
+    - {fileID: 2800000, guid: 6a76b0e5611d65c4b9543c1b6af30f12, type: 3}
+    - {fileID: 2800000, guid: 45d9ceb9018be1d49bf17a07cc8708e1, type: 3}
+    - {fileID: 2800000, guid: f4df03d62e407f74f87224a95dff1fa4, type: 3}
+    - {fileID: 2800000, guid: d94095a054d3eaa4da9f7abae5e11ea7, type: 3}
+    - {fileID: 2800000, guid: 4165cd4ac403613499b521016e50d3aa, type: 3}
+    - {fileID: 2800000, guid: f64cb670300f53b45835e8ea6ae87ab9, type: 3}
+    - {fileID: 2800000, guid: 0d053dbffe56d81429bbb40661851085, type: 3}
 --- !u!23 &5030176156820423697 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 1201510561200139645, guid: cee315dfa4cbcf84a987ed7b4904766d, type: 3}
@@ -527,7 +524,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2552314050673319940, guid: cee315dfa4cbcf84a987ed7b4904766d, type: 3}
   m_PrefabInstance: {fileID: 6152578915834341740}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &3243175748884398597
+--- !u!114 &6507832357091215964
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -536,7 +533,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8505608604861204840}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a37fc0da9bdb4be5a5e50a1a25afe17c, type: 3}
+  m_Script: {fileID: 11500000, guid: 6ff6a938fff04caa89988122075ed4bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   slots:
@@ -544,6 +541,30 @@ MonoBehaviour:
     renderer: {fileID: 6564477706857464273}
     slot: 0
     menuPath: Props/LogoBand/Logo
-    sourceProperty: _MainTexArray
-    targetShader: {fileID: 4800000, guid: 5ad730916d1841c3a2049bbcf2bd788b, type: 3}
     targetProperty: _MainTex
+    textures:
+    - {fileID: 2800000, guid: 788ce6fe6f252c94583fbba80c5e96b5, type: 3}
+    - {fileID: 2800000, guid: 3558cc9c5841f7a4f9774a9bde7c7b8e, type: 3}
+    - {fileID: 2800000, guid: 1d78895749d8641409fb62752d2622ed, type: 3}
+    - {fileID: 2800000, guid: e986d9575ad0d8b44afbe118f90b1b52, type: 3}
+    - {fileID: 2800000, guid: f4031ef6532027a4b828f7a4a238251a, type: 3}
+    - {fileID: 2800000, guid: c0f06509c4771984ab873ebc78b6847c, type: 3}
+    - {fileID: 2800000, guid: 1a485694ce4071748824ceaf75a79afe, type: 3}
+    - {fileID: 2800000, guid: 24dc505fd8aa14c429f03ed43ff4d5b1, type: 3}
+    - {fileID: 2800000, guid: 9072a2c67e5c5a44b815b36963dda010, type: 3}
+    - {fileID: 2800000, guid: 713241beccf01e24db381d198eea0f1e, type: 3}
+    - {fileID: 2800000, guid: fc87145b904b7c64cb7aa9e4b88c88df, type: 3}
+    - {fileID: 2800000, guid: 55a6e7364b4668f4b9e55702b42155d2, type: 3}
+    - {fileID: 2800000, guid: 291d60997d72c364ba6eb0849771d507, type: 3}
+    - {fileID: 2800000, guid: af448397cb1c75247bdd61e4074e4796, type: 3}
+    - {fileID: 2800000, guid: f84977500c70c3f48b1d35b2fb0f3481, type: 3}
+    - {fileID: 2800000, guid: 9508fcc33f8e9f24e90f39dbefa8abc9, type: 3}
+    - {fileID: 2800000, guid: 45c949951a266e24fa641e6a06dbcc09, type: 3}
+    - {fileID: 2800000, guid: cb94019264e31284c86e0d6bee082e1c, type: 3}
+    - {fileID: 2800000, guid: 6a76b0e5611d65c4b9543c1b6af30f12, type: 3}
+    - {fileID: 2800000, guid: 45d9ceb9018be1d49bf17a07cc8708e1, type: 3}
+    - {fileID: 2800000, guid: f4df03d62e407f74f87224a95dff1fa4, type: 3}
+    - {fileID: 2800000, guid: d94095a054d3eaa4da9f7abae5e11ea7, type: 3}
+    - {fileID: 2800000, guid: 4165cd4ac403613499b521016e50d3aa, type: 3}
+    - {fileID: 2800000, guid: f64cb670300f53b45835e8ea6ae87ab9, type: 3}
+    - {fileID: 2800000, guid: 0d053dbffe56d81429bbb40661851085, type: 3}

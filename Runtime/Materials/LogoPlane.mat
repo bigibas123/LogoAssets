@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: LogoPlane
-  m_Shader: {fileID: 4800000, guid: ddff9009cc01f0a4cb091fcccaf27c67, type: 3}
+  m_Shader: {fileID: 4800000, guid: 5ad730916d1841c3a2049bbcf2bd788b, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -23,15 +23,14 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _MainTexArray:
-        m_Texture: {fileID: 18700000, guid: a460c4af715a36941a70126c1ec07f2d, type: 2}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 788ce6fe6f252c94583fbba80c5e96b5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
     - _AL_Weight: 0
     - _Alpha_Non_Premul: 1
-    - _Logo_FlipBookID: 0
     - _MinAmbient: 0.2
     m_Colors: []
   m_BuildTextureStacks: []
