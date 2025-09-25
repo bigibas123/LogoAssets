@@ -76,7 +76,7 @@ PrefabInstance:
       addedObject: {fileID: 1508831538141747646}
     - targetCorrespondingSourceObject: {fileID: 7991113125823017423, guid: d113e2023fac05f4888ace0fefcc56be, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 729944302438740464}
+      addedObject: {fileID: 5223977839926513452}
   m_SourcePrefab: {fileID: 100100000, guid: d113e2023fac05f4888ace0fefcc56be, type: 3}
 --- !u!1 &711089184059895665 stripped
 GameObject:
@@ -305,7 +305,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7991113125823017423, guid: d113e2023fac05f4888ace0fefcc56be, type: 3}
   m_PrefabInstance: {fileID: 4861309151372140790}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &729944302438740464
+--- !u!114 &5223977839926513452
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -314,7 +314,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3283394497320325433}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a37fc0da9bdb4be5a5e50a1a25afe17c, type: 3}
+  m_Script: {fileID: 11500000, guid: 6ff6a938fff04caa89988122075ed4bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   slots:
@@ -322,9 +322,14 @@ MonoBehaviour:
     renderer: {fileID: 4087415341618954705}
     slot: 0
     menuPath: Props/YakeFlag/Logo
-    sourceProperty: _MainTexArray
-    targetShader: {fileID: 4800000, guid: 5ad730916d1841c3a2049bbcf2bd788b, type: 3}
     targetProperty: _MainTex
+    textures:
+    - {fileID: 2800000, guid: 31ca6a5da827ead40b7262e869445a2c, type: 3}
+    - {fileID: 2800000, guid: 2c91556385c16ef47ba3cf14757ac300, type: 3}
+    - {fileID: 2800000, guid: d58cbb3220273a0458522c09dc69d339, type: 3}
+    - {fileID: 2800000, guid: 83ee489a3844afe4baa910c67acfdc5c, type: 3}
+    - {fileID: 2800000, guid: 205a973f74e451141bec4a7efa95d03d, type: 3}
+    - {fileID: 2800000, guid: 5e6a36733b4e1fa41b7606c496896f37, type: 3}
 --- !u!137 &4087415341618954705 stripped
 SkinnedMeshRenderer:
   m_CorrespondingSourceObject: {fileID: -301815450448535257, guid: d113e2023fac05f4888ace0fefcc56be, type: 3}
@@ -513,7 +518,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1249.0
+  vrcfuryVersion: 1.1252.0
   somethingIsBroken: 0
   config:
     features: []
@@ -619,7 +624,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1249.0
+  vrcfuryVersion: 1.1252.0
   somethingIsBroken: 0
   config:
     features: []
@@ -709,7 +714,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1249.0
+  vrcfuryVersion: 1.1252.0
   somethingIsBroken: 0
   config:
     features: []
@@ -794,7 +799,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1249.0
+  vrcfuryVersion: 1.1252.0
   somethingIsBroken: 0
   config:
     features: []
