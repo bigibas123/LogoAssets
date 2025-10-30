@@ -32,7 +32,7 @@ Material:
     - _AL_Theme_Weight: 0
     - _AL_Weight: 0
     - _Alpha_Multiply: 0
-    - _Alpha_Non_Premul: 1
+    - _Alpha_Non_Premul: 0
     - _Logo_FlipBookID: 0
     - _MinAmbient: 1
     m_Colors: []
