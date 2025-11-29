@@ -49,7 +49,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1272.0
+  vrcfuryVersion: 1.1273.0
   somethingIsBroken: 0
   config:
     features: []
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1272.0
+  vrcfuryVersion: 1.1273.0
   somethingIsBroken: 0
   config:
     features: []
@@ -257,7 +257,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1272.0
+  vrcfuryVersion: 1.1273.0
   somethingIsBroken: 0
   config:
     features: []
@@ -424,7 +424,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slots:
-  - enabled: 1
+  - enabled: 0
     renderer: {fileID: 5030176156820423697}
     slot: 0
     menuPath: Props/LogoBand/Logo
@@ -445,12 +445,11 @@ MonoBehaviour:
     - {fileID: 2800000, guid: 291d60997d72c364ba6eb0849771d507, type: 3}
     - {fileID: 2800000, guid: af448397cb1c75247bdd61e4074e4796, type: 3}
     - {fileID: 2800000, guid: f84977500c70c3f48b1d35b2fb0f3481, type: 3}
+    - {fileID: 2800000, guid: 1dc2858e894403c45b36b38a1d092760, type: 3}
     - {fileID: 2800000, guid: 9508fcc33f8e9f24e90f39dbefa8abc9, type: 3}
     - {fileID: 2800000, guid: 45c949951a266e24fa641e6a06dbcc09, type: 3}
     - {fileID: 2800000, guid: cb94019264e31284c86e0d6bee082e1c, type: 3}
     - {fileID: 2800000, guid: 6a76b0e5611d65c4b9543c1b6af30f12, type: 3}
-    - {fileID: 2800000, guid: 45d9ceb9018be1d49bf17a07cc8708e1, type: 3}
-    - {fileID: 2800000, guid: 98be664b9d5d5d0428e95907b175600d, type: 3}
     - {fileID: 2800000, guid: f4df03d62e407f74f87224a95dff1fa4, type: 3}
     - {fileID: 2800000, guid: d94095a054d3eaa4da9f7abae5e11ea7, type: 3}
     - {fileID: 2800000, guid: 4165cd4ac403613499b521016e50d3aa, type: 3}
@@ -474,7 +473,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slots:
-  - enabled: 1
+  - enabled: 0
     renderer: {fileID: 337028461651415316}
     slot: 0
     menuPath: Props/LogoBand/Logo
@@ -495,12 +494,11 @@ MonoBehaviour:
     - {fileID: 2800000, guid: 291d60997d72c364ba6eb0849771d507, type: 3}
     - {fileID: 2800000, guid: af448397cb1c75247bdd61e4074e4796, type: 3}
     - {fileID: 2800000, guid: f84977500c70c3f48b1d35b2fb0f3481, type: 3}
+    - {fileID: 2800000, guid: 1dc2858e894403c45b36b38a1d092760, type: 3}
     - {fileID: 2800000, guid: 9508fcc33f8e9f24e90f39dbefa8abc9, type: 3}
     - {fileID: 2800000, guid: 45c949951a266e24fa641e6a06dbcc09, type: 3}
     - {fileID: 2800000, guid: cb94019264e31284c86e0d6bee082e1c, type: 3}
     - {fileID: 2800000, guid: 6a76b0e5611d65c4b9543c1b6af30f12, type: 3}
-    - {fileID: 2800000, guid: 45d9ceb9018be1d49bf17a07cc8708e1, type: 3}
-    - {fileID: 2800000, guid: 98be664b9d5d5d0428e95907b175600d, type: 3}
     - {fileID: 2800000, guid: f4df03d62e407f74f87224a95dff1fa4, type: 3}
     - {fileID: 2800000, guid: d94095a054d3eaa4da9f7abae5e11ea7, type: 3}
     - {fileID: 2800000, guid: 4165cd4ac403613499b521016e50d3aa, type: 3}
@@ -539,7 +537,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slots:
-  - enabled: 1
+  - enabled: 0
     renderer: {fileID: 6564477706857464273}
     slot: 0
     menuPath: Props/LogoBand/Logo
@@ -560,12 +558,11 @@ MonoBehaviour:
     - {fileID: 2800000, guid: 291d60997d72c364ba6eb0849771d507, type: 3}
     - {fileID: 2800000, guid: af448397cb1c75247bdd61e4074e4796, type: 3}
     - {fileID: 2800000, guid: f84977500c70c3f48b1d35b2fb0f3481, type: 3}
+    - {fileID: 2800000, guid: 1dc2858e894403c45b36b38a1d092760, type: 3}
     - {fileID: 2800000, guid: 9508fcc33f8e9f24e90f39dbefa8abc9, type: 3}
     - {fileID: 2800000, guid: 45c949951a266e24fa641e6a06dbcc09, type: 3}
     - {fileID: 2800000, guid: cb94019264e31284c86e0d6bee082e1c, type: 3}
     - {fileID: 2800000, guid: 6a76b0e5611d65c4b9543c1b6af30f12, type: 3}
-    - {fileID: 2800000, guid: 45d9ceb9018be1d49bf17a07cc8708e1, type: 3}
-    - {fileID: 2800000, guid: 98be664b9d5d5d0428e95907b175600d, type: 3}
     - {fileID: 2800000, guid: f4df03d62e407f74f87224a95dff1fa4, type: 3}
     - {fileID: 2800000, guid: d94095a054d3eaa4da9f7abae5e11ea7, type: 3}
     - {fileID: 2800000, guid: 4165cd4ac403613499b521016e50d3aa, type: 3}
