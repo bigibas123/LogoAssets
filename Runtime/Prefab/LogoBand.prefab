@@ -424,7 +424,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slots:
-  - enabled: 0
+  - enabled: 1
     renderer: {fileID: 5030176156820423697}
     slot: 0
     menuPath: Props/LogoBand/Logo
@@ -473,7 +473,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slots:
-  - enabled: 0
+  - enabled: 1
     renderer: {fileID: 337028461651415316}
     slot: 0
     menuPath: Props/LogoBand/Logo
@@ -537,7 +537,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slots:
-  - enabled: 0
+  - enabled: 1
     renderer: {fileID: 6564477706857464273}
     slot: 0
     menuPath: Props/LogoBand/Logo
