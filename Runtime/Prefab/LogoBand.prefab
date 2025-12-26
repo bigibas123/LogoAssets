@@ -424,8 +424,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slots:
-  - enabled: 1
-    renderer: {fileID: 5030176156820423697}
+  - renderer: {fileID: 5030176156820423697}
     slot: 0
     menuPath: Props/LogoBand/Logo
     targetProperty: _MainTex
@@ -455,6 +454,7 @@ MonoBehaviour:
     - {fileID: 2800000, guid: 4165cd4ac403613499b521016e50d3aa, type: 3}
     - {fileID: 2800000, guid: f64cb670300f53b45835e8ea6ae87ab9, type: 3}
     - {fileID: 2800000, guid: 0d053dbffe56d81429bbb40661851085, type: 3}
+    savedBetweenWorlds: 1
 --- !u!1 &3031412675570544665 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9183934931831789941, guid: cee315dfa4cbcf84a987ed7b4904766d, type: 3}
@@ -473,8 +473,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slots:
-  - enabled: 1
-    renderer: {fileID: 337028461651415316}
+  - renderer: {fileID: 337028461651415316}
     slot: 0
     menuPath: Props/LogoBand/Logo
     targetProperty: _MainTex
@@ -504,6 +503,7 @@ MonoBehaviour:
     - {fileID: 2800000, guid: 4165cd4ac403613499b521016e50d3aa, type: 3}
     - {fileID: 2800000, guid: f64cb670300f53b45835e8ea6ae87ab9, type: 3}
     - {fileID: 2800000, guid: 0d053dbffe56d81429bbb40661851085, type: 3}
+    savedBetweenWorlds: 1
 --- !u!23 &5030176156820423697 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 1201510561200139645, guid: cee315dfa4cbcf84a987ed7b4904766d, type: 3}
@@ -537,8 +537,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slots:
-  - enabled: 1
-    renderer: {fileID: 6564477706857464273}
+  - renderer: {fileID: 6564477706857464273}
     slot: 0
     menuPath: Props/LogoBand/Logo
     targetProperty: _MainTex
@@ -568,3 +567,4 @@ MonoBehaviour:
     - {fileID: 2800000, guid: 4165cd4ac403613499b521016e50d3aa, type: 3}
     - {fileID: 2800000, guid: f64cb670300f53b45835e8ea6ae87ab9, type: 3}
     - {fileID: 2800000, guid: 0d053dbffe56d81429bbb40661851085, type: 3}
+    savedBetweenWorlds: 1
